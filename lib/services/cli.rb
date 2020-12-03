@@ -64,7 +64,7 @@ class Cli
     end
 
     def breed_details_menu
-        input = get_input
+        input = get_input.downcase
 
         if input.to_i.between?(1, Breed.all.length)
             index = input.to_i - 1
