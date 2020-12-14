@@ -7,7 +7,7 @@ class Api
     end
 
     def self.load_data
-        response = Excon.get(url, headers: {token: '7b103632-0ba7-4301-a04f-5bb8a64a37c6'})
+        response = RestClient.get(url, headers: {token: '7b103632-0ba7-4301-a04f-5bb8a64a37c6'})
         data = JSON.parse(response.body)
         data.each do |breed_data|
             Breed.new(breed_data)   

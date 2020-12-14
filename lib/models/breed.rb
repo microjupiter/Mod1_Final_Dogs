@@ -4,11 +4,11 @@ class Breed
     @@all = []
 
     def initialize(breed_data)
-        self.bred_for = breed_data["bred_for"]
-        self.name = breed_data["name"]
-        self.life_span = breed_data["life_span"]
-        self.breed_group = breed_data["breed_group"]
-        self.temperament = breed_data["temperament"]
+        @bred_for = breed_data["bred_for"]
+        @name = breed_data["name"]
+        @life_span = breed_data["life_span"]
+        @breed_group = breed_data["breed_group"]
+        @temperament = breed_data["temperament"]
         @@all << self
     end
 
