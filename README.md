@@ -1,8 +1,18 @@
 # Mod1FinalDogs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mod1_final_dogs`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+TODO:
+To begin program user will type "ruby bin/run" in the terminal.
+User will be prompted to enter '1' to list cat breeds.
+Typing 'exit' at any point will end program .
+A list of different cat breeds will appear.
+User then is prompted to choose the cat they want more information on.
+User then will type the index number next to that specific cat breed or type the cat breed.
+Information on their choice will appear.
+User then has the choice to run program again by typing '1' or 'exit' to end program.
+Prerequisites
+Before you continue, ensure you have met the following requirements:
+* You have installed the latest version of Ruby.
+* Install dependencies bundle, rest-client and json.
 
 ## Installation
 
